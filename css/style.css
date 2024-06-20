@@ -29,3 +29,34 @@ body{
     padding-left: 20px;
     font-size: 15px;
 }
+
+.people_menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    gap: 20px;
+    border: 1px solid black;
+    padding-top:10px;
+    padding-bottom: 20px;
+}
+
+.foto img{
+    width:85px;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+.information {
+    margin-top: 18px;
+
+}
+
+.information h3{
+    font-size: 30px;
+}
+
+.information p{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
