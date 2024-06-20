@@ -1,0 +1,8 @@
+:root{
+    --color-1: rgb(157, 157, 214);
+}
+
+@font-face {
+    font-family: "fuente";
+    src: url(../storage/fonts/Montserrat-VariableFont_wght.ttf);
+}
