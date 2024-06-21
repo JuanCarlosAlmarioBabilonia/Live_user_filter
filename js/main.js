@@ -9,9 +9,9 @@ addEventListener("DOMContentLoaded", async () => {
     main.innerHTML = await perfiles(data);
     
     input__search.addEventListener("input", async e => {
-        const searchTerm = e.target.value.toLowerCase().trim(); 
+        const filtro = e.target.value.toLowerCase().trim(); 
         const filteredProfiles = data.filter(person => {
-            return person.name_full.toLowerCase().includes(searchTerm); 
+            return person.name_full.toLowerCase().includes(filtro); 
         });
             main.innerHTML = await perfiles(filteredProfiles);
     });
