@@ -1,7 +1,8 @@
 :root{
-    --color-1: rgb(157, 157, 214);
+    --color-1: rgb(200, 200, 241);
     --color-2: rgb(105, 44, 204);
     --color-3: rgb(47, 88, 177);
+    --color-4: rgb(198, 219, 248);
 }
 
 @font-face {
